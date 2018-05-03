@@ -27,8 +27,6 @@ func main() {
 				fmt.Println("读取完了")
 				break
 			} else {
-				fmt.Println("从服务端收到", n)
-
 				util.CheckErr(err)
 				fmt.Println("server: ", string(buffer[:n]))
 			}
